@@ -1,0 +1,5 @@
+C:\Projects\CarShop\CarShop.Test\obj\Debug\net5.0\ECarShop.Test.csproj.AssemblyReference.cache
+C:\Projects\CarShop\CarShop.Test\obj\Debug\net5.0\ECarShop.Test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\CarShop\CarShop.Test\obj\Debug\net5.0\ECarShop.Test.AssemblyInfoInputs.cache
+C:\Projects\CarShop\CarShop.Test\obj\Debug\net5.0\ECarShop.Test.AssemblyInfo.cs
+C:\Projects\CarShop\CarShop.Test\obj\Debug\net5.0\ECarShop.Test.csproj.CoreCompileInputs.cache

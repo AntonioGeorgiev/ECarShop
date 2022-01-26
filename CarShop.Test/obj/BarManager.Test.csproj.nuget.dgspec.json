@@ -1,0 +1,378 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Vectronio\\Source\\Repos\\BarManagerB\\BarManager.Test\\BarManager.Test.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Vectronio\\Source\\Repos\\BarManagerB\\BarManager.BL\\ECarShop.BL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Vectronio\\Source\\Repos\\BarManagerB\\BarManager.BL\\ECarShop.BL.csproj",
+        "projectName": "ECarShop.BL",
+        "projectPath": "C:\\Users\\Vectronio\\Source\\Repos\\BarManagerB\\BarManager.BL\\ECarShop.BL.csproj",
+        "packagesPath": "C:\\Users\\Vectronio\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Vectronio\\Source\\Repos\\BarManagerB\\BarManager.BL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Vectronio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Vectronio\\Source\\Repos\\BarManagerB\\BarManager.DL\\ECarShop.DL.csproj": {
+                "projectPath": "C:\\Users\\Vectronio\\Source\\Repos\\BarManagerB\\BarManager.DL\\ECarShop.DL.csproj"
+              },
+              "C:\\Users\\Vectronio\\Source\\Repos\\BarManagerB\\BarManager.Models\\ECarShop.Models.csproj": {
+                "projectPath": "C:\\Users\\Vectronio\\Source\\Repos\\BarManagerB\\BarManager.Models\\ECarShop.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Vectronio\\Source\\Repos\\BarManagerB\\BarManager.DL\\ECarShop.DL.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Vectronio\\Source\\Repos\\BarManagerB\\BarManager.DL\\ECarShop.DL.csproj",
+        "projectName": "ECarShop.DL",
+        "projectPath": "C:\\Users\\Vectronio\\Source\\Repos\\BarManagerB\\BarManager.DL\\ECarShop.DL.csproj",
+        "packagesPath": "C:\\Users\\Vectronio\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Vectronio\\Source\\Repos\\BarManagerB\\BarManager.DL\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Vectronio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\Vectronio\\Source\\Repos\\BarManagerB\\BarManager.Models\\ECarShop.Models.csproj": {
+                "projectPath": "C:\\Users\\Vectronio\\Source\\Repos\\BarManagerB\\BarManager.Models\\ECarShop.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.14.1, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Vectronio\\Source\\Repos\\BarManagerB\\BarManager.Models\\ECarShop.Models.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Vectronio\\Source\\Repos\\BarManagerB\\BarManager.Models\\ECarShop.Models.csproj",
+        "projectName": "ECarShop.Models",
+        "projectPath": "C:\\Users\\Vectronio\\Source\\Repos\\BarManagerB\\BarManager.Models\\ECarShop.Models.csproj",
+        "packagesPath": "C:\\Users\\Vectronio\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Vectronio\\Source\\Repos\\BarManagerB\\BarManager.Models\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Vectronio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Vectronio\\Source\\Repos\\BarManagerB\\BarManager.Test\\BarManager.Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Vectronio\\Source\\Repos\\BarManagerB\\BarManager.Test\\BarManager.Test.csproj",
+        "projectName": "BarManager.Test",
+        "projectPath": "C:\\Users\\Vectronio\\Source\\Repos\\BarManagerB\\BarManager.Test\\BarManager.Test.csproj",
+        "packagesPath": "C:\\Users\\Vectronio\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Vectronio\\Source\\Repos\\BarManagerB\\BarManager.Test\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Vectronio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Vectronio\\Source\\Repos\\BarManagerB\\BarManager\\ECarShop.csproj": {
+                "projectPath": "C:\\Users\\Vectronio\\Source\\Repos\\BarManagerB\\BarManager\\ECarShop.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[6.2.0, )"
+            },
+            "Microsoft.AspNetCore.TestHost": {
+              "target": "Package",
+              "version": "[5.0.13, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.0.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.16.1, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[1.3.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Vectronio\\Source\\Repos\\BarManagerB\\BarManager\\ECarShop.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Vectronio\\Source\\Repos\\BarManagerB\\BarManager\\ECarShop.csproj",
+        "projectName": "ECarShop",
+        "projectPath": "C:\\Users\\Vectronio\\Source\\Repos\\BarManagerB\\BarManager\\ECarShop.csproj",
+        "packagesPath": "C:\\Users\\Vectronio\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Vectronio\\Source\\Repos\\BarManagerB\\BarManager\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Vectronio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\Vectronio\\Source\\Repos\\BarManagerB\\BarManager.BL\\ECarShop.BL.csproj": {
+                "projectPath": "C:\\Users\\Vectronio\\Source\\Repos\\BarManagerB\\BarManager.BL\\ECarShop.BL.csproj"
+              },
+              "C:\\Users\\Vectronio\\Source\\Repos\\BarManagerB\\BarManager.DL\\ECarShop.DL.csproj": {
+                "projectPath": "C:\\Users\\Vectronio\\Source\\Repos\\BarManagerB\\BarManager.DL\\ECarShop.DL.csproj"
+              },
+              "C:\\Users\\Vectronio\\Source\\Repos\\BarManagerB\\BarManager.Models\\ECarShop.Models.csproj": {
+                "projectPath": "C:\\Users\\Vectronio\\Source\\Repos\\BarManagerB\\BarManager.Models\\ECarShop.Models.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.1.1, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[10.3.5, )"
+            },
+            "Serilog.AspNetCore": {
+              "target": "Package",
+              "version": "[4.1.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
