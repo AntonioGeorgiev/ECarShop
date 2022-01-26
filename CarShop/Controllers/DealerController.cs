@@ -1,5 +1,4 @@
 ﻿using AutoMapper;
-using BarManager.Models.Responses;
 using ECarShop.BL.Interfaces;
 using ECarShop.Models.DTO;
 using ECarShop.Models.Requests;
@@ -65,15 +64,15 @@ namespace ECarShop.Host.Controllers
         }
 
         [HttpPost("Update")]
-        public IActionResult Update([FromBody] DealerUpdateRequest dealerRequest)
+        public IActionResult Update([FromBody] Dealer dealer)
         {
-            if (dealerRequest == null) return BadRequest();
+            if (dealer == null) return BadRequest();
 
-            var searchDealer = _dealerService.GetById(dealerRequest.Id);
+            var searchDealer = _dealerService.GetById(dealer.Id);
 
-            if (searchDealer == null) return NotFound(dealerRequest.Id);
+            if (searchDealer == null) return NotFound(dealer.Id);
 
-            searchDealer.Name = dealerRequest.Name;
+            searchDealer.Name = dealer.Name;
 
             var result = _dealerService.Update(searchDealer);
 

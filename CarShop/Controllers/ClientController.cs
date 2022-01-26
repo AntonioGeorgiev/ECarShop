@@ -1,11 +1,8 @@
 ﻿using AutoMapper;
-using BarManager.BL.Interfaces;
 using ECarShop.BL.Interfaces;
 using ECarShop.Models.DTO;
 using ECarShop.Models.Requests;
 using ECarShop.Models.Responses;
-using ECarShop.Requests;
-using ECarShop.Responses;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ECarShop.Controllers
@@ -70,15 +67,15 @@ namespace ECarShop.Controllers
         }
 
         [HttpPost("Update")]
-        public IActionResult Update([FromBody] ClientUpdateRequest clientRequest)
+        public IActionResult Update([FromBody] Client client)
         {
-            if (clientRequest == null) return BadRequest();
+            if (client == null) return BadRequest();
 
-            var searchClient = _clientService.GetById(clientRequest.Id);
+            var searchClient = _clientService.GetById(client.Id);
 
-            if (searchClient == null) return NotFound(clientRequest.Id);
+            if (searchClient == null) return NotFound(client.Id);
 
-            searchClient.Username = clientRequest.Username;
+            searchClient.Username = client.Username;
 
             var result = _clientService.Update(searchClient);
 
