@@ -1,4 +1,5 @@
 ﻿using AutoMapper;
+using BarManager.Models.Responses;
 using ECarShop.BL.Interfaces;
 using ECarShop.Models.DTO;
 using ECarShop.Models.Requests;

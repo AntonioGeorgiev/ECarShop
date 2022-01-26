@@ -1,8 +1,11 @@
 ﻿using AutoMapper;
+using BarManager.BL.Interfaces;
 using ECarShop.BL.Interfaces;
 using ECarShop.Models.DTO;
 using ECarShop.Models.Requests;
 using ECarShop.Models.Responses;
+using ECarShop.Requests;
+using ECarShop.Responses;
 using Microsoft.AspNetCore.Mvc;
 
 namespace ECarShop.Controllers
