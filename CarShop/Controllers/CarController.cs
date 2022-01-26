@@ -16,7 +16,7 @@ namespace ECarShop.Controllers
         private readonly ICarService _carService;
         private readonly IMapper _mapper;
 
-        public CarController(IBillService carService,IMapper mapper)
+        public CarController(ICarService carService,IMapper mapper)
         {
             _carService = carService;
             _mapper = mapper;
