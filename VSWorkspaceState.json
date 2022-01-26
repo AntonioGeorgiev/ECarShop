@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\CarShop.BL",
+    "\\CarShop.BL\\Interfaces",
+    "\\CarShop.BL\\obj",
+    "\\CarShop.BL\\Services",
+    "\\CarShop.DL\\Repositories\\InMemoryRepos",
+    "\\CarShop.Test\\bin\\Debug",
+    "\\CarShop.Test\\bin\\Debug\\net5.0",
+    "\\CarShop.Test\\obj"
+  ],
+  "SelectedNode": "\\CarShop.BL",
+  "PreviewInSolutionExplorer": false
+}
