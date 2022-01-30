@@ -15,7 +15,7 @@ namespace ECarShop.Extensions
 
             CreateMap<Client, ClientResponse>().ReverseMap();
             CreateMap<ClientResponse, Client>().ReverseMap();
-            CreateMap<ClientRequest, User>().ReverseMap();
+            CreateMap<ClientRequest, Client>().ReverseMap();
 
             CreateMap<Dealer, DealerResponse>().ReverseMap();
             CreateMap<DealerResponse, Dealer>().ReverseMap();

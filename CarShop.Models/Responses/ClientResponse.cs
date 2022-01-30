@@ -1,6 +1,6 @@
 ﻿using ECarShop.Models.Enums;
 
-namespace ECarShop.Responses
+namespace ECarShop.Models.Responses
 {
     public class ClientResponse
     {

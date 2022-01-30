@@ -8,19 +8,19 @@
     ".NETCoreApp,Version=v3.1": []
   },
   "packageFolders": {
-    "C:\\Users\\boris.se\\.nuget\\packages\\": {}
+    "C:\\Users\\Vectronio\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\CarShop\\CarShop.Models\\ECarShop.Models.csproj",
+      "projectUniqueName": "C:\\Users\\Vectronio\\source\\repos\\ECarShop\\CarShop.Models\\ECarShop.Models.csproj",
       "projectName": "ECarShop.Models",
-      "projectPath": "C:\\Projects\\CarShop\\CarShop.Models\\ECarShop.Models.csproj",
-      "packagesPath": "C:\\Users\\boris.se\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\CarShop\\CarShop.Models\\obj\\",
+      "projectPath": "C:\\Users\\Vectronio\\source\\repos\\ECarShop\\CarShop.Models\\ECarShop.Models.csproj",
+      "packagesPath": "C:\\Users\\Vectronio\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Vectronio\\source\\repos\\ECarShop\\CarShop.Models\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\boris.se\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Vectronio\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -28,10 +28,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://artifactory.sbtech.com/artifactory/api/nuget/SBTech": {},
-        "https://artifactory.sbtech.com/artifactory/api/nuget/SBTechFeature": {},
-        "https://artifactory.sbtech.com/artifactory/api/nuget/SBTechSymbols": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
@@ -63,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
       }
     }
   }

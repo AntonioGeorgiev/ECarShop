@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "E8HeGJWp8ZcAoDV8RAXhw4HILL9oTbXdj/ZHbzL44iEMyZ9BpfWcytbD6Jp9pPt2jtGs3w/PcqQNQ2A9eSoNVw==",
+  "dgSpecHash": "7OG3UKfg3VkVFxh0FfYi80YcOxvz9h27ujEW/gayXWaq0liP8r44jULW2aH7u6GiYUc/iw2IK+gvYwIGpYlA8A==",
   "success": true,
-  "projectFilePath": "C:\\Projects\\CarShop\\CarShop.Models\\ECarShop.Models.csproj",
+  "projectFilePath": "C:\\Users\\Vectronio\\source\\repos\\ECarshop\\CarShop.Models\\ECarShop.Models.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

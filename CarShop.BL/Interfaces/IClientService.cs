@@ -1,7 +1,7 @@
 ﻿using ECarShop.Models.DTO;
 using System.Collections.Generic;
 
-namespace BarManager.BL.Interfaces
+namespace ECarShop.BL.Interfaces
 {
     public interface IClientService
     {

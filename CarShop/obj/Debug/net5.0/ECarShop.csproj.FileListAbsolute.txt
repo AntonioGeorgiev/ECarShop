@@ -11,3 +11,10 @@ C:\Projects\CarShop\CarShop\obj\Debug\net5.0\ECarShop.AssemblyInfo.cs
 C:\Projects\CarShop\CarShop\obj\Debug\net5.0\ECarShop.csproj.CoreCompileInputs.cache
 C:\Projects\CarShop\CarShop\obj\Debug\net5.0\ECarShop.MvcApplicationPartsAssemblyInfo.cache
 C:\Projects\CarShop\CarShop\obj\Debug\net5.0\ECarShop.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Vectronio\source\repos\asd\CarShop\obj\Debug\net5.0\ECarShop.csproj.AssemblyReference.cache
+C:\Users\Vectronio\source\repos\asd\CarShop\obj\Debug\net5.0\ECarShop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Vectronio\source\repos\asd\CarShop\obj\Debug\net5.0\ECarShop.AssemblyInfoInputs.cache
+C:\Users\Vectronio\source\repos\asd\CarShop\obj\Debug\net5.0\ECarShop.AssemblyInfo.cs
+C:\Users\Vectronio\source\repos\asd\CarShop\obj\Debug\net5.0\ECarShop.csproj.CoreCompileInputs.cache
+C:\Users\Vectronio\source\repos\asd\CarShop\obj\Debug\net5.0\ECarShop.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Vectronio\source\repos\asd\CarShop\obj\Debug\net5.0\ECarShop.MvcApplicationPartsAssemblyInfo.cache

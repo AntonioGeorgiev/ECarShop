@@ -1,11 +1,9 @@
 using AutoMapper;
 using ECarShop.BL.Interfaces;
-using ECarShop.DL.Interfaces;
 using ECarShop.Models.DTO;
 using ECarShop.Models.Requests;
 using ECarShop.Models.Responses;
 using Microsoft.AspNetCore.Mvc;
-using System;
 
 namespace ECarShop.Controllers
 {

@@ -1,7 +1,5 @@
 ﻿using ECarShop.Models.Enums;
-using System;
-using System.Collections.Generic;
-using System.Text;
+
 
 namespace ECarShop.Models.DTO
 {

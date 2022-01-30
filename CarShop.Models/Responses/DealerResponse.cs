@@ -1,4 +1,4 @@
-﻿namespace BarManager.Models.Responses
+﻿namespace ECarShop.Models.Responses
 {
     public class DealerResponse
     {
