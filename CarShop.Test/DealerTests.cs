@@ -27,7 +27,7 @@ namespace ECarShop.Test
 
         private IList<Dealer> Dealers = new List<Dealer>()
         {
- new Dealer()
+        new Dealer()
             {
                 Id = 1,
                 Name = "Dealer1",
@@ -95,11 +95,11 @@ namespace ECarShop.Test
             var DealerId = 2;
             var expectedName = "Dealer2";
 
-            _dealerRepository.Setup(x => x.GetById(dealerId))
-                .Returns(Dealers.FirstOrDefault(e => e.Id == dealerId));
+            _dealerRepository.Setup(x => x.GetById(DealerId))
+                .Returns(Dealers.FirstOrDefault(e => e.Id == DealerId));
 
             //Act
-            var result = _dealerController.GetById(dealerId);
+            var result = _dealerController.GetById(DealerId);
 
             //Assert
             var okObjectResult = result as OkObjectResult;
@@ -140,11 +140,11 @@ namespace ECarShop.Test
             var DealerId = 1;
             var expectedName = "Updated Dealer Name";
 
-            var dealer = Dealers.FirstOrDefault(x => x.Id == dealerId);
+            var dealer = Dealers.FirstOrDefault(x => x.Id == DealerId);
             dealer.Name = expectedName;
 
-            _dealerRepository.Setup(x => x.GetById(dealerId))
-                .Returns(Dealers.FirstOrDefault(t => t.Id == dealerId));
+            _dealerRepository.Setup(x => x.GetById(DealerId))
+                .Returns(Dealers.FirstOrDefault(t => t.Id == DealerId));
             _dealerRepository.Setup(x => x.Update(dealer))
                 .Returns(dealer);
 

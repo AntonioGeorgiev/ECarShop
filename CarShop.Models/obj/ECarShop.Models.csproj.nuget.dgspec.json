@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Vectronio\\source\\repos\\ECarshop\\CarShop.Models\\ECarShop.Models.csproj": {}
+    "C:\\Projects\\ECarShop\\CarShop.Models\\ECarShop.Models.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Vectronio\\source\\repos\\ECarshop\\CarShop.Models\\ECarShop.Models.csproj": {
+    "C:\\Projects\\ECarShop\\CarShop.Models\\ECarShop.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Vectronio\\source\\repos\\ECarshop\\CarShop.Models\\ECarShop.Models.csproj",
+        "projectUniqueName": "C:\\Projects\\ECarShop\\CarShop.Models\\ECarShop.Models.csproj",
         "projectName": "ECarShop.Models",
-        "projectPath": "C:\\Users\\Vectronio\\source\\repos\\ECarshop\\CarShop.Models\\ECarShop.Models.csproj",
-        "packagesPath": "C:\\Users\\Vectronio\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Vectronio\\source\\repos\\ECarshop\\CarShop.Models\\obj\\",
+        "projectPath": "C:\\Projects\\ECarShop\\CarShop.Models\\ECarShop.Models.csproj",
+        "packagesPath": "C:\\Users\\boris.se\\.nuget\\packages\\",
+        "outputPath": "C:\\Projects\\ECarShop\\CarShop.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Vectronio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\boris.se\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +22,10 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://artifactory.sbtech.com/artifactory/api/nuget/SBTech": {},
+          "https://artifactory.sbtech.com/artifactory/api/nuget/SBTechFeature": {},
+          "https://artifactory.sbtech.com/artifactory/api/nuget/SBTechSymbols": {}
         },
         "frameworks": {
           "netcoreapp3.1": {
@@ -54,7 +57,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
         }
       }
     }

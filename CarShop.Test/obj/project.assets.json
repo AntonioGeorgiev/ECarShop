@@ -2479,8 +2479,6 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
-          "C:\\Users\\Vectronio\\source\\repos\\ECarshop\\ECarShop.DL\\ECarShop.DL.csproj": "1.0.0",
-          "C:\\Users\\Vectronio\\source\\repos\\ECarshop\\ECarShop.Models\\ECarShop.Models.csproj": "1.0.0",
           "ECarShop.DL": "1.0.0",
           "ECarShop.Models": "1.0.0",
           "Serilog.AspNetCore": "4.1.0"
@@ -8164,6 +8162,7 @@
       "ECarShop >= 1.0.0",
       "ECarShop.BL >= 1.0.0",
       "ECarShop.DL >= 1.0.0",
+      "ECarShop.Models >= 1.0.0",
       "FluentAssertions >= 6.2.0",
       "Microsoft.AspNetCore.TestHost >= 5.0.13",
       "Microsoft.NET.Test.Sdk >= 17.0.0",
@@ -8175,19 +8174,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Vectronio\\.nuget\\packages\\": {}
+    "C:\\Users\\boris.se\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Vectronio\\source\\repos\\ECarshop\\CarShop.Test\\ECarShop.Test.csproj",
+      "projectUniqueName": "C:\\Projects\\ECarShop\\CarShop.Test\\ECarShop.Test.csproj",
       "projectName": "ECarShop.Test",
-      "projectPath": "C:\\Users\\Vectronio\\source\\repos\\ECarshop\\CarShop.Test\\ECarShop.Test.csproj",
-      "packagesPath": "C:\\Users\\Vectronio\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Vectronio\\source\\repos\\ECarshop\\CarShop.Test\\obj\\",
+      "projectPath": "C:\\Projects\\ECarShop\\CarShop.Test\\ECarShop.Test.csproj",
+      "packagesPath": "C:\\Users\\boris.se\\.nuget\\packages\\",
+      "outputPath": "C:\\Projects\\ECarShop\\CarShop.Test\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Vectronio\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\boris.se\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8195,20 +8194,26 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://artifactory.sbtech.com/artifactory/api/nuget/SBTech": {},
+        "https://artifactory.sbtech.com/artifactory/api/nuget/SBTechFeature": {},
+        "https://artifactory.sbtech.com/artifactory/api/nuget/SBTechSymbols": {}
       },
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Vectronio\\source\\repos\\ECarshop\\CarShop.BL\\ECarShop.BL.csproj": {
-              "projectPath": "C:\\Users\\Vectronio\\source\\repos\\ECarshop\\CarShop.BL\\ECarShop.BL.csproj"
+            "C:\\Projects\\ECarShop\\CarShop.BL\\ECarShop.BL.csproj": {
+              "projectPath": "C:\\Projects\\ECarShop\\CarShop.BL\\ECarShop.BL.csproj"
             },
-            "C:\\Users\\Vectronio\\source\\repos\\ECarshop\\CarShop.DL\\ECarShop.DL.csproj": {
-              "projectPath": "C:\\Users\\Vectronio\\source\\repos\\ECarshop\\CarShop.DL\\ECarShop.DL.csproj"
+            "C:\\Projects\\ECarShop\\CarShop.DL\\ECarShop.DL.csproj": {
+              "projectPath": "C:\\Projects\\ECarShop\\CarShop.DL\\ECarShop.DL.csproj"
             },
-            "C:\\Users\\Vectronio\\source\\repos\\ECarshop\\CarShop\\ECarShop.csproj": {
-              "projectPath": "C:\\Users\\Vectronio\\source\\repos\\ECarshop\\CarShop\\ECarShop.csproj"
+            "C:\\Projects\\ECarShop\\CarShop.Models\\ECarShop.Models.csproj": {
+              "projectPath": "C:\\Projects\\ECarShop\\CarShop.Models\\ECarShop.Models.csproj"
+            },
+            "C:\\Projects\\ECarShop\\CarShop\\ECarShop.csproj": {
+              "projectPath": "C:\\Projects\\ECarShop\\CarShop\\ECarShop.csproj"
             }
           }
         }
@@ -8275,28 +8280,8 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.404\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'C:\\Users\\Vectronio\\source\\repos\\ECarshop\\ECarShop.DL\\ECarShop.DL.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "C:\\Users\\Vectronio\\source\\repos\\ECarshop\\ECarShop.DL\\ECarShop.DL.csproj",
-      "targetGraphs": [
-        "net5.0"
-      ]
-    },
-    {
-      "code": "NU1104",
-      "level": "Error",
-      "message": "Unable to find project 'C:\\Users\\Vectronio\\source\\repos\\ECarshop\\ECarShop.Models\\ECarShop.Models.csproj'. Check that the project reference is valid and that the project file exists.",
-      "libraryId": "C:\\Users\\Vectronio\\source\\repos\\ECarshop\\ECarShop.Models\\ECarShop.Models.csproj",
-      "targetGraphs": [
-        "net5.0"
-      ]
-    }
-  ]
+  }
 }

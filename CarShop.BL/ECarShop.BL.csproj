@@ -15,8 +15,6 @@
   <ItemGroup>
 	<ProjectReference Include="..\CarShop.DL\ECarShop.DL.csproj" />
 	<ProjectReference Include="..\CarShop.Models\ECarShop.Models.csproj" />
-    <ProjectReference Include="..\ECarShop.DL\ECarShop.DL.csproj" />
-    <ProjectReference Include="..\ECarShop.Models\ECarShop.Models.csproj" />
   </ItemGroup>
 
 </Project>

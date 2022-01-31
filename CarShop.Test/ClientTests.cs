@@ -1,18 +1,18 @@
 ﻿using AutoMapper;
 using ECarShop.BL.Interfaces;
-using ECarShop.Controllers;
-using ECarShop.Extensions;
 using ECarShop.BL.Services;
+using ECarShop.Controllers;
 using ECarShop.DL.Interfaces;
+using ECarShop.Extensions;
 using ECarShop.Models.DTO;
-using ECarShop.Requests;
-using ECarShop.Responses;
 using Microsoft.AspNetCore.Mvc;
 using Moq;
 using Serilog;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
+using ECarShop.Models.Requests;
+using ECarShop.Models.Responses;
 using Xunit;
 
 namespace BarManager.Test
@@ -96,7 +96,7 @@ namespace BarManager.Test
             var client = _mapper.Map<Client>(response);
 
             Assert.NotNull(client);
-            Assert.Equal(expectedName, client.Name);
+            Assert.Equal(expectedUsername, client.Username);
         }
 
         [Fact]
@@ -121,7 +121,7 @@ namespace BarManager.Test
             var client = _mapper.Map<Client>(response);
 
             Assert.NotNull(client);
-            Assert.Equal(expectedDiscount, client.Discount);
+            Assert.Equal(expectedDiscount, client.Balance);
         }
 
         [Fact]
@@ -146,7 +146,7 @@ namespace BarManager.Test
             var client = _mapper.Map<Client>(response);
 
            Assert.NotNull(client);
-            Assert.Equal(expectedMoneySpend, client.MoneySpend);
+            Assert.Equal(expectedMoneySpend, client.Balance);
         }
 
         [Fact]
@@ -172,12 +172,12 @@ namespace BarManager.Test
 
         [Fact]
         public void Client_Update_ClientName()
-        //{
+        {
             var clientId = 1;
             var expectedName = "Updated Client Name";
 
             var client = Clients.FirstOrDefault(x => x.Id == clientId);
-            client.Name = expectedName;
+            client.Username = expectedName;
 
             _clientRepository.Setup(x => x.GetById(clientId))
                 .Returns(Clients.FirstOrDefault(t => t.Id == clientId));
@@ -195,7 +195,7 @@ namespace BarManager.Test
 
             var val = okObjectResult.Value as Client;
             Assert.NotNull(val);
-            Assert.Equal(expectedUsername, val.Username);
+            Assert.Equal(expectedName, val.Username);
 
         }
 

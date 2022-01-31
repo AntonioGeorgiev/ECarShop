@@ -42,3 +42,12 @@ C:\Users\Vectronio\source\repos\ECarShop\CarShop.Models\obj\Debug\netcoreapp3.1\
 C:\Users\Vectronio\source\repos\ECarShop\CarShop.Models\obj\Debug\netcoreapp3.1\ECarShop.Models.dll
 C:\Users\Vectronio\source\repos\ECarShop\CarShop.Models\obj\Debug\netcoreapp3.1\ECarShop.Models.pdb
 C:\Users\Vectronio\source\repos\ECarshop\CarShop.Models\obj\Debug\netcoreapp3.1\ECarShop.Models.csproj.AssemblyReference.cache
+C:\Projects\ECarShop\CarShop.Models\bin\Debug\netcoreapp3.1\ECarShop.Models.deps.json
+C:\Projects\ECarShop\CarShop.Models\bin\Debug\netcoreapp3.1\ECarShop.Models.dll
+C:\Projects\ECarShop\CarShop.Models\bin\Debug\netcoreapp3.1\ECarShop.Models.pdb
+C:\Projects\ECarShop\CarShop.Models\obj\Debug\netcoreapp3.1\ECarShop.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\ECarShop\CarShop.Models\obj\Debug\netcoreapp3.1\ECarShop.Models.AssemblyInfoInputs.cache
+C:\Projects\ECarShop\CarShop.Models\obj\Debug\netcoreapp3.1\ECarShop.Models.AssemblyInfo.cs
+C:\Projects\ECarShop\CarShop.Models\obj\Debug\netcoreapp3.1\ECarShop.Models.csproj.CoreCompileInputs.cache
+C:\Projects\ECarShop\CarShop.Models\obj\Debug\netcoreapp3.1\ECarShop.Models.dll
+C:\Projects\ECarShop\CarShop.Models\obj\Debug\netcoreapp3.1\ECarShop.Models.pdb

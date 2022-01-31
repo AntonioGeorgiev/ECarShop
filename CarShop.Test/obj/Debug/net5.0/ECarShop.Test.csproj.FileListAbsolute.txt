@@ -8,3 +8,8 @@ C:\Users\Vectronio\source\repos\asd\CarShop.Test\obj\Debug\net5.0\ECarShop.Test.
 C:\Users\Vectronio\source\repos\asd\CarShop.Test\obj\Debug\net5.0\ECarShop.Test.AssemblyInfoInputs.cache
 C:\Users\Vectronio\source\repos\asd\CarShop.Test\obj\Debug\net5.0\ECarShop.Test.AssemblyInfo.cs
 C:\Users\Vectronio\source\repos\asd\CarShop.Test\obj\Debug\net5.0\ECarShop.Test.csproj.CoreCompileInputs.cache
+C:\Projects\ECarShop\CarShop.Test\obj\Debug\net5.0\ECarShop.Test.csproj.AssemblyReference.cache
+C:\Projects\ECarShop\CarShop.Test\obj\Debug\net5.0\ECarShop.Test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\ECarShop\CarShop.Test\obj\Debug\net5.0\ECarShop.Test.AssemblyInfoInputs.cache
+C:\Projects\ECarShop\CarShop.Test\obj\Debug\net5.0\ECarShop.Test.AssemblyInfo.cs
+C:\Projects\ECarShop\CarShop.Test\obj\Debug\net5.0\ECarShop.Test.csproj.CoreCompileInputs.cache
