@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using ECarShop;
 using Serilog;
 
-namespace ÅCarShop
+namespace ECarShop
 {
     public class Program
     {
@@ -38,10 +38,11 @@ namespace ÅCarShop
         }
 
         public static IHostBuilder CreateHostBuilder(string[] args) =>
-            Host.CreateDefaultBuilder(args)
-                .ConfigureWebHostDefaults(webBuilder =>
-                {
-                    webBuilder.UseStartup<Startup>();
-                });
+           Microsoft.Extensions.Hosting.Host.CreateDefaultBuilder(args)
+               .UseSerilog()
+               .ConfigureWebHostDefaults(webBuilder =>
+               {
+                   webBuilder.UseStartup<Startup>();
+               });
     }
 }

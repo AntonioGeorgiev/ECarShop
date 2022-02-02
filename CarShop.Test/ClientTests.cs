@@ -99,30 +99,6 @@ namespace BarManager.Test
             Assert.Equal(expectedUsername, client.Username);
         }
 
-        [Fact]
-        public void Client_GetById_DiscountCheck()
-        {
-            //setup
-            var clientId = 2;
-            var expectedDiscount = 6;
-
-            _clientRepository.Setup(x => x.GetById(clientId))
-               .Returns(Clients.FirstOrDefault(t => t.Id == clientId));
-
-            //Act
-            var result = _clientController.GetById(clientId);
-
-            //Assert
-            var okObjectResult = result as OkObjectResult;
-            Assert.NotNull(okObjectResult);
-            Assert.Equal(okObjectResult.StatusCode, (int)HttpStatusCode.OK);
-
-            var response = okObjectResult.Value as ClientResponse;
-            var client = _mapper.Map<Client>(response);
-
-            Assert.NotNull(client);
-            Assert.Equal(expectedDiscount, client.Balance);
-        }
 
         [Fact]
         public void Client_GetById_MoneySpendCheck()
@@ -185,7 +161,7 @@ namespace BarManager.Test
                 .Returns(client);
 
             //Act
-            var clientUpdateRequest = _mapper.Map<ClientUpdateRequest>(client);
+            var clientUpdateRequest = _mapper.Map<Client>(client);
             var result = _clientController.Update(clientUpdateRequest);
 
             //Assert

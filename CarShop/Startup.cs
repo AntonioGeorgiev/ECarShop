@@ -14,6 +14,7 @@ using ECarShop.DL.Interfaces;
 using ECarShop.DL.Repositories;
 using Microsoft.OpenApi.Models;
 using Serilog;
+using FluentValidation.AspNetCore;
 
 namespace ECarShop
 {
@@ -29,7 +30,7 @@ namespace ECarShop
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            services.AddRazorPages();
+           
 
             services.AddSingleton(Log.Logger);
             services.AddAutoMapper(typeof(Startup));
@@ -42,10 +43,10 @@ namespace ECarShop
             services.AddSingleton<ICarService, CarService>();
             services.AddSingleton<IClientService, ClientService>();
             services.AddSingleton<IDealerService, DealerService>();
-            
-           
 
 
+
+            services.AddControllers().AddFluentValidation(fv => fv.RegisterValidatorsFromAssemblyContaining<Startup>());
 
             services.AddSwaggerGen(c =>
             {

@@ -38,13 +38,8 @@ namespace ECarShop.Test
                 Id = 2,
                 Name = "Dealer2",
                 PhoneNumber = 123456
-            },
-            new Dealer()
-            {
-                Id = 3,
-                Name = "Dealer3",
-                PhoneNumber = 875600
-            } };
+            }, };
+
 
         public DealerTests()
         {
@@ -58,7 +53,7 @@ namespace ECarShop.Test
 
             var logger = new Mock<ILogger>();
 
-            _dealerService = new DealerService(_dealerRepository.Object);
+            _dealerService = new DealerService(_dealerRepository.Object, logger.Object);
             _dealerController = new DealerController(_dealerService, _mapper);
 
         }
@@ -68,7 +63,7 @@ namespace ECarShop.Test
             //setup
             var expectedCount = 2;
 
-            var mockedService = new Mock<IService>();
+            var mockedService = new Mock<IDealerService>();
 
             mockedService.Setup(x => x.GetAll()).Returns(Dealers);
 
@@ -149,7 +144,7 @@ namespace ECarShop.Test
                 .Returns(dealer);
 
             //Act
-            var dealerUpdateRequest = _mapper.Map<DealerUpdateRequest>(dealer);
+            var dealerUpdateRequest = _mapper.Map<Dealer>(dealer);
             var result = _dealerController.Update(dealerUpdateRequest);
 
             //Assert
@@ -191,7 +186,7 @@ namespace ECarShop.Test
         public void Dealer_Delete_NotExisting_Dealer()
         {
             //Setup
-            var dealerId = 3;
+            var dealerId = 5;
 
             var dealer = Dealers.FirstOrDefault(x => x.Id == dealerId);
 
@@ -215,8 +210,8 @@ namespace ECarShop.Test
             //setup
             var dealer = new Dealer()
             {
-                Id = 4,
-                Name = "Dealer4",
+                Id = 3,
+                Name = "Dealer3",
                 PhoneNumber = 000000,
             };
 
